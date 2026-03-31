@@ -265,7 +265,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.h1
               )}
             >
-              {"Welcome to your first page."}
+              {"REVMA"}
             </h1>
             <div
               className={classNames(
