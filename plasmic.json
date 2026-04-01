@@ -26460,7 +26460,7 @@
     {
       "projectId": "hSmcsWKw3zCBXehRUPYvUE",
       "projectApiToken": "oWLoNaJ0pnBobRgL57pXlBkpLgW8AMeEDLxoDgWu63GK6CucLEZ6IYDhmNZlULxXWQF74UnOTgfBO7G9YWeQ",
-      "projectName": "REVMA Hub",
+      "projectName": "revma-hub",
       "version": "latest",
       "cssFilePath": "plasmic/starter_project_desktop_first/plasmic.module.css",
       "components": [

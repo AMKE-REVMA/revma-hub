@@ -261,11 +261,12 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.h1,
+                projectcss.h1__hSmcs,
                 projectcss.__wab_text,
                 sty.h1
               )}
             >
-              {"REVMA"}
+              {"Sample Change"}
             </h1>
             <div
               className={classNames(
@@ -281,7 +282,9 @@ function PlasmicHomepage__RenderFunc(props: {
                   }
                 </React.Fragment>
                 <span
-                  className={"plasmic_default__all plasmic_default__span"}
+                  className={
+                    "plasmic_default__all plasmic_default__span plasmic_default__span__hSmcs"
+                  }
                   style={{ fontWeight: 700 }}
                 >
                   {"Code"}
@@ -305,12 +308,18 @@ function PlasmicHomepage__RenderFunc(props: {
             <ul
               data-plasmic-name={"ul"}
               data-plasmic-override={overrides.ul}
-              className={classNames(projectcss.all, projectcss.ul, sty.ul)}
+              className={classNames(
+                projectcss.all,
+                projectcss.ul,
+                projectcss.ul__hSmcs,
+                sty.ul
+              )}
             >
               <li
                 className={classNames(
                   projectcss.all,
                   projectcss.li,
+                  projectcss.li__hSmcs,
                   sty.li__vMoP
                 )}
               >
@@ -318,6 +327,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.a,
+                    projectcss.a__hSmcs,
                     projectcss.__wab_text,
                     sty.link__xeMBc
                   )}
@@ -336,6 +346,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.li,
+                  projectcss.li__hSmcs,
                   sty.li__y89N6
                 )}
               >
@@ -343,6 +354,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.a,
+                    projectcss.a__hSmcs,
                     projectcss.__wab_text,
                     sty.link___8WFQg
                   )}
@@ -517,6 +529,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.span,
+                    projectcss.span__hSmcs,
                     projectcss.__wab_text,
                     sty.span__n8N9E
                   )}
@@ -530,6 +543,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.span,
+                    projectcss.span__hSmcs,
                     projectcss.__wab_text,
                     sty.span___6NnPi
                   )}
@@ -543,6 +557,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.span,
+                    projectcss.span__hSmcs,
                     projectcss.__wab_text,
                     sty.span__rqe4S
                   )}

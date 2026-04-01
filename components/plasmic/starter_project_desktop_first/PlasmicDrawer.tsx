@@ -290,6 +290,7 @@ function PlasmicDrawer__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.h2,
+                      projectcss.h2__hSmcs,
                       projectcss.__wab_text,
                       sty.h2__ntJrQ
                     )}

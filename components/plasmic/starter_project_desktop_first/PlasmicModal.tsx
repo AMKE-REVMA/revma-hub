@@ -285,6 +285,7 @@ function PlasmicModal__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.h3,
+                    projectcss.h3__hSmcs,
                     projectcss.__wab_text,
                     sty.h3__uc1Ex
                   )}
